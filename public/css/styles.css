@@ -1,0 +1,83 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("http://localhost/hackathon_summit/public/img/r2.png");
+}
+
+#table {
+  color: #fff;
+}
+
+#navbar {
+  background-color: #fff !important;
+}
+
+#img-logo{
+  margin: 6px;
+}
+
+#navbar-brand {
+  background-color: #fff !important;
+  border-color: #fff;
+  border-radius: 0 30px 0;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* SIDEBAR */
+.sidebar {
+  margin-top: 50px;
+  background-color:#fff !important;
+}
+
+.sidebar-sticky .nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #232323;
+}
+
+.sidebar-sticky .nav-link i {
+  color: #232323;
+}
+
+.sidebar-sticky .nav-link #clicked_icon {
+  color: #F28D20;
+}
+
+.sidebar-sticky #clicked {
+  color: #F28D20;
+}
+
+/* DASHBOARD CONTENT */
+#main_container {
+  margin-top: 40px;
+}
+
+.title-dashboard {
+  font-style: normal;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.card {
+  box-shadow: 5px 4px 10px #8e7dc5; 
+}
